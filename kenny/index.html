@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web template | DavM25</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav Phone -->
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-4">
+            <a href="#home" class="text-body-emphasis h4" style="text-decoration: none;">Inicio</a>
+            <br><br>
+            <a href="#info" class="text-body-emphasis h4" style="text-decoration: none;">¿Quien somos?</a>
+            <br><br>
+            <a href="#s3m" class="text-body-emphasis h4" style="text-decoration: none;">Nuestros Servicios</a>
+            <br><br>
+            <a href="#s4" class="text-body-emphasis h4" style="text-decoration: none;">Encuentra tu centro</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark d-md-none">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">KennySports</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Nav PC -->
+    <nav id="pcnav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">KennySports</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <i class="fas fa-bars" style="color:#ffffff; font-size:28px;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto" style="margin-left: 50%;">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#info" class="nav-link">¿Quién somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#s3" class="nav-link">Nuestros servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#s4" class="nav-link">Encuentra tu centro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <header id="home">
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container">
+                    <div class="row" id="home-content">
+                        <div class="col-lg-30" style="margin-top: 28%">
+                            <h3 style="text-align: center;" class="display-4"><strong>“No eres lo que logras, eres lo que superas”</strong></h3>
+                            <h3 style="text-align: center; color:rgba(200,200,200,.8);" class="display-6"><strong>Kenny McCormick</strong></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="info">
+        <div class="container">
+            <div class="row">
+                <div class="text-center p-3">
+                    <h1 class="display-4"> <strong> ¿Quién somos? </strong> </h1>
+                    <br>
+                    <p class="lead">
+                        Somos una cadena de gimnasios dedicada a promover el bienestar y la salud a través del ejercicio físico. Con una amplia red de centros ubicados estratégicamente en todo el país, ofrecemos a nuestros clientes la oportunidad de encontrar el gimnasio perfecto cerca de su ubicación. Nuestros gimnasios cuentan con modernas instalaciones, equipos de última generación y un equipo de profesionales altamente capacitados para brindar un servicio de calidad a nuestros socios.
+                    </p>
+                    <p class="lead">
+                        En Kenny, creemos que el fitness es una parte esencial de un estilo de vida saludable. Nuestros programas de entrenamiento están diseñados para adaptarse a las necesidades de cada persona, ya sea que sean principiantes, aficionados al fitness o atletas experimentados. Ofrecemos una amplia variedad de opciones de entrenamiento, desde clases de grupo hasta entrenamientos personalizados, con el objetivo de ayudar a nuestros socios a alcanzar sus metas de manera efectiva y divertida. ¡Únete a Kenny y comienza a transformar tu vida hoy mismo!
+                    </p>
+                    <br>
+                    <a href="#s4" class="btn btn-outline-primary mt-3">Descubre nuestros centros</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="s3">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+            <div class="carousel-indicators" style="margin-bottom: 270px;">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/trainer.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mt-auto mb-autop" id="carousel-txt-1">
+                        <h1>Entrenadores personales</h1>
+                        <h5>Nuestros entrenadores personales te ofrecerán un enfoque personalizado para ayudarte a alcanzar tus metas fitness. Con su experiencia y dedicación, te guiarán en tu entrenamiento, adaptando programas específicos a tus necesidades.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/nutri.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Servicio de nutrición</h1>
+                        <h5>En Kenny, ofrecemos servicios de nutrición personalizados para mejorar tu bienestar. Nuestros nutricionistas te brindarán planes de alimentación adaptados a tus necesidades, para ayudarte a alcanzar tus metas de salud. Descubre cómo nuestro servicio de nutrición puede potenciar tu rendimiento en Kenny.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/swim.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Clases de natación y aquagym</h1>
+                        <h5>En KennySports, ofrecemos clases de natación y aquagym para todas las edades y niveles. Nuestros instructores altamente capacitados te brindarán programas de entrenamiento acuático adaptados a tus necesidades y habilidades. Descubre cómo nuestras clases de natación y aquagym pueden ayudarte a mejorar tu técnica, fortalecer tus músculos y disfrutar de un ejercicio acuático divertido y efectivo.</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <header id="s3m" class="d-md-none">
+        <div id="carouselMv" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1 class="display-4 mvtext">Entrenadores personales</h1>
+                    <p class="lead mvtext p-3">Nuestros entrenadores personales te ofrecerán un enfoque personalizado para ayudarte a alcanzar tus metas fitness. Con su experiencia y dedicación, te guiarán en tu entrenamiento, adaptando programas específicos a tus necesidades.</p>
+                    <img src="img/trainer.jpeg" class="d-block imgmv" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <h1 class="display-4 mvtext">Servicio de nutrición</h1>
+                    <p class="lead mvtext p-3">En Kenny, ofrecemos servicios de nutrición personalizados para mejorar tu bienestar. Nuestros nutricionistas te brindarán planes de alimentación adaptados a tus necesidades, para ayudarte a alcanzar tus metas de salud.</p>
+                    <img src="img/nutri.jpg" class="d-block imgmv" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <h1 class="display-4 mvtext">Clases de natación</h1>
+                    <p class="lead mvtext p-3">En KennySports, ofrecemos clases de natación y aquagym para todas las edades y niveles. Nuestros instructores altamente capacitados te brindarán programas de entrenamiento acuático adaptados a tus necesidades y habilidades.</p>
+                    <img src="img/swim.jpg" class="d-block imgmv" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMv" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMv" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <header id="s4">
+        <div class="dark-overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center p-4" id="s4-content-left" style="margin-top: 160px;">
+                        <h1 class="display-4"> <strong> Encuentra tu centro mas cercano </strong></h1>
+                        <h4 style="color: rgb(180,180,180);">Accede a nuestro mapa interactivo con todos nuestros centros para que te resulte mas fácil encontrar tu gimnasio Kenny mas cercano.</h4>
+                        <br>
+                    </div>
+                    <div class="col-md-6 text-center p-4" id="mapakennydiv" style="margin-top: 40px;">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1aG0COJn4YNNPoUPLvPtouvIsH5Ocb_Q&ehbc=2E312F" id="mapakenny" width="640" height="480"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <a href="" class="no-hover sn-icon">
+                                <i class="fab fa-twitter text-light"></i>
+                            </a>
+                            <a href="" class="no-hover sn-icon">
+                                <i class="fab fa-instagram text-light"></i>
+                            </a>
+                            <a href="" class="no-hover sn-icon">
+                                <i class="fab fa-facebook text-light"></i>
+                            </a>
+                            <a href="" class="no-hover sn-icon">
+                                <i class="fab fa-tiktok text-light"></i>
+                            </a>
+                        </div>
+                        <div class="col-md-8 text-right" id="textfooter">
+                            © 2023 Todos los derechos reservados:
+                            <a href="" class="text-light no-hover">KannySports S.A</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </header>
+
+    <a href="#home" id="fixed-button" class="btn btn-light d-md-none">↑</a>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Scripts -->
+    <script src="index.js"></script>
+</body>
+</html>

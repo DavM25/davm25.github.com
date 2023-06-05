@@ -1,0 +1,191 @@
+body {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.navbar {
+    border-bottom: #c0392b 3px solid;
+}
+
+#home {
+    background: url("img/home.jpg") no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.home-inner {
+    padding-top: 150px;
+}
+
+#info {
+    min-height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 90px;
+    max-height: 100vh;
+}
+
+#s3 {
+    min-height: 100vh;
+    max-height: 100vh;
+    padding-top: auto;
+    overflow: hidden;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+
+.dark-overlay2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 85vh;
+}
+
+#s4 {
+    background: url("img/gymd.jpg") no-repeat rgba(0, 0, 0, 0.9);
+    min-height: 85vh;
+    background-size: cover;
+    color: #fff;
+}
+
+footer {
+    min-height: 50px;
+    padding-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(
+        rgba(53, 53, 53, 0.5),
+        rgba(53, 53, 53, 0.7),
+        rgba(53, 53, 53, 0.8),
+        #333,
+        #333
+    );
+}
+
+.no-hover:hover {
+    text-decoration: none;
+}
+
+.sn-icon {
+    margin-left: 20px;
+}
+
+.footer-dark {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* SCROLLBAR */
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+        #3a3a3a,
+        #929292,
+        #fff
+    );
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.carousel-caption {
+    margin-bottom: 20%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: start;
+    padding-left: 80px;
+}
+
+#s4-content-left {
+    margin-top: 8%;
+}
+
+#phonenav {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    * {
+        overflow-x: hidden;
+    }
+    
+    #home {
+        /* overflow-y: hidden; */
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #info {
+        padding-top: 2%;
+    }
+
+    #home-content {
+        margin-top: 60%;
+    }
+
+    #s3 {
+        display: none;
+    }
+    
+    #s3m {
+        background-color: #202020;
+    }
+
+    .mvtext {
+        text-align: center;
+    }
+
+    h1.mvtext {
+        margin-top: 20px;
+    }
+
+    .carousel-item {
+        /* min-height: 100vh; */
+    }
+
+    #info::-webkit-scrollbar {
+        display: block;
+    }
+
+    .imgmv {
+        margin-bottom: 0;
+    }
+
+    #mapakennydiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    #textfooter {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    #phonenav {
+        /* display: block; */
+    }
+
+    #pcnav {
+        display: none;
+    }
+
+    #fixed-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999; /* Asegura que el botón esté por encima del contenido */
+    }
+}

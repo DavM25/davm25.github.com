@@ -1,0 +1,10 @@
+- title: Inicio
+  url: /
+- title: Sobre mi
+  url: /about/
+- title: HackTheBox
+  url: /htb/
+#- title: Categorias
+#  url: /categories/
+#- title: Tags
+#  url: /tags/
